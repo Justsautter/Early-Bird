@@ -16,7 +16,7 @@ body {
 }
 #advice {
   border-radius: 14px;
-  background-color: #e9d545;
+  background-color: #b3b3cc;
   font-size: 20px;
   color: white;
   padding: 10px 20px;
@@ -24,9 +24,9 @@ body {
   box-shadow: 0 5px #999;
 }
 
-#advice:hover {background-color: #b7a415}
+#advice:hover {background-color: #8585ad}
 
 #advice:active {
-  background-color: #b7a415;
+  background-color: #8585ad;
   box-shadow: 0 5px #666;
   transform: translateY(4px);}
