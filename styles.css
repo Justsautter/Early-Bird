@@ -20,6 +20,7 @@ body {
   border-radius: 14px;
   background-color: #cc66ff;
   font-size: 20px;
+  font-family: helvetica;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
@@ -32,11 +33,17 @@ body {
   background-color: #8585ad;
   box-shadow: 0 5px #666;
   transform: translateY(4px);}
+
+#advice {
+    position: static;
+    margin-top: 10px;
+}
   
 .dropbtn {
     border-radius: 14px;
   background-color: #b3b3cc;
   font-size: 20px;
+  font-family: helvetica;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
@@ -69,7 +76,7 @@ body {
     background-color: #a5551c;
 }
 .dropdown {
-    position: fixed;
+    position: absolute;
     margin-top: 3px;
     margin-left: 3px;
 }
@@ -119,3 +126,9 @@ body {
     display: block;
 }
 .show {display:block;}
+
+
+
+
+
+

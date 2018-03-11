@@ -15,20 +15,36 @@
     </head>
     <body>
         <img src="http://alpestravel.com/wp-content/uploads/2016/08/Early-Bird.png">
-        <h1 style="font-size:36px"> the early bird... </h1>
+        <h1 style="font-size:48px"> the early bird... </h1>
         
-        <p id ="text"> </p>
+        <p id ="text" style="font-size:36px"> gets the worm. </p>
         
-        <button id=advice onclick="GiveAdvice()">advice?</button>
+        <div id="rand_pos" class="rand"></div>
+    
+
+        <button id=advice onclick="GiveAdvice()" class="new_pos">advice?</button>
         
         <script>
         function GiveAdvice(){
             var endings = ["speaks louder than words.","never boils.","bites the hand that feeds it.","puts it off till tomorrow.",
-            "takes a single step.","Must come to an end.","Keeps its enemies closer.","joins 'em."];
+            "takes a single step.","must come to an end.","keeps its enemies closer.","joins 'em.","never prospers.","adds insult to injury.",
+            "can't be a chooser.","speaks a thousand words.","is where the heart is.","is the best medicine."];
             var rand = Math.floor(Math.random() * endings.length);
             document.getElementById("text").innerHTML = endings[rand];
         }
         </script>
+        <style>
+            div.absolute {
+            position: absolute;
+            top: 500px;
+            right: 300px;
+            width: 200px;
+            height: 200px;
+            
+            
+        }
+        </style>
+    <div class="absolute">This div element has position: absolute;</div>
     </body>
 </html>
 
@@ -50,3 +66,5 @@ window.onclick = function(event) {
   }
 }
 </script>
+
+
