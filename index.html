@@ -23,7 +23,8 @@
         
         <script>
         function GiveAdvice(){
-            var endings = ["speaks louder than words","never boils","gets less sleep than the other birds"];
+            var endings = ["speaks louder than words.","never boils.","bites the hand that feeds it.","puts it off till tomorrow.",
+            "takes a single step.","Must come to an end.","Keeps its enemies closer.","joins 'em."];
             var rand = Math.floor(Math.random() * endings.length);
             document.getElementById("text").innerHTML = endings[rand];
         }
