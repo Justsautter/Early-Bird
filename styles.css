@@ -13,12 +13,12 @@ body {
     background-position: left top;
     background-size: cover;
     background-image: url(https://static1.squarespace.com/static/59cc24c8e3df286f13ce044b/t/59e23d3232601ede1978d621/1507999030021/sunrise.jpg?format=2500w);
-    background-color: #cccccc
+    background-color: #cccccc;
     background-attachment: fixed;
 }
 #advice {
   border-radius: 14px;
-  background-color: #b3b3cc;
+  background-color: #cc66ff;
   font-size: 20px;
   color: white;
   padding: 10px 20px;
@@ -46,7 +46,7 @@ body {
     background-color: white;
     font-family: "arial";
     color: white;
-    border: ridge #42eef4 10px
+    border: ridge #b75d1d 10px
 }
 .dropbtn:hover, .dropbtn:focus {
     background-color: red;
@@ -57,16 +57,16 @@ body {
     margin-left: 3px;
 }
 .dropbtn {
-    background-color: #42eef4;
-    border: ridge #42eef4 10px
+    background-color: #b75d1d;
+    border: ridge #b75d1d 10px
 }
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #40aeb2;
+    background-color: #a5551c;
 }
 
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #d0e2e2;
+    background-color: #a5551c;
 }
 .dropdown {
     position: fixed;
@@ -74,14 +74,14 @@ body {
     margin-left: 3px;
 }
 .dropbtn {
-    background-color: #42eef4;
-    border: #42eef4 7px
+    background-color: #b75d1d;
+    border: #b75d1d 7px
 }
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #40aeb2;
+    background-color: #a5551c;
 }
 .dropbtn {
-    background-color: #42eef4;
+    background-color: #b75d1d;
   box-shadow: 3 5px #666;
   transform: translateY(4px);
 }
@@ -93,18 +93,15 @@ body {
     z-index: 1;
 }
 .dropdown-content a {
-    background-color: #40aeb2;
+    background-color: #a5551c;
     color: white;
     padding: 10px 10px;
     text-decoration: none;
     display: block;
 }
-<<<<<<<<< saved version
-    background-color: #40aeb2;
-}
 .dropbtn {
-    background-color: #42eef4;
-  box-shadow: 0 px #666;
+    background-color: #b75d1d;
+  box-shadow: 0px;
   transform: translateY(4px);
 }
 .dropdown-content {
@@ -116,7 +113,7 @@ body {
     z-index: 1;
 }
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 10px;
     text-decoration: none;
     display: block;
