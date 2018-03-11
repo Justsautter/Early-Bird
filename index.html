@@ -7,9 +7,18 @@
     <body>
         <img src="http://alpestravel.com/wp-content/uploads/2016/08/Early-Bird.png">
         <h1 style="font-size:36px"> the early bird... </h1>
-        <button id="advice">advice?</button>
-        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-        <script src="main.js"></script>
+        
+        <p id ="text"> </p>
+        
+        <button id=advice onclick="GiveAdvice()">advice?</button>
+        
+        <script>
+        function GiveAdvice(){
+            var endings = ["speakes louder than words","never boils","gets less sleep than the other birds"];
+            var rand = Math.floor(Math.random() * endings.length);
+            document.getElementById("text").innerHTML = endings[rand];
+        }
+        </script>
         
     </body>
 </html>
