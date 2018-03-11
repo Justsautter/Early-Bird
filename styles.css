@@ -1,5 +1,5 @@
 img {
-    width: 230px;
+    width: 250px;
 }
 body {
     text-align: center;
@@ -7,7 +7,7 @@ body {
 body {
     text-align: center;
     font-family: "Helvetica";
-    color: White;
+    color:#ffcce6;
     background: black;
     background: #009933;
     background-position: left top;
