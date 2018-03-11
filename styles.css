@@ -14,3 +14,19 @@ body {
     background-position: left top;
     background-size: 230px;
 }
+#advice {
+  border-radius: 14px;
+  background-color: #e9d545;
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 5px #999;
+}
+
+#advice:hover {background-color: #b7a415}
+
+#advice:active {
+  background-color: #b7a415;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);}
