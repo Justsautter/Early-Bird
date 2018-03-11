@@ -10,9 +10,10 @@ body {
     color: White;
     background: black;
     background: #009933;
-    background-repeat: repeat-y;
     background-position: left top;
-    background-size: 230px;
+    background-size: cover;
+    background-image: url(https://i.ytimg.com/vi/8Hedq2d1H44/maxresdefault.jpg);
+    background-color: #cccccc
 }
 #advice {
   border-radius: 14px;
