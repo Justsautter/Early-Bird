@@ -1,5 +1,5 @@
-mp4 {
-    width: 400px;
+img {
+    width: 230px;
 }
 body {
     text-align: center;
@@ -7,6 +7,11 @@ body {
 body {
     text-align: center;
     font-family: "impact";
-    background-image: url("https://archive-media-1.nyafuu.org/vp/image/1450/55/1450557463732.gif");
     color: FUCHSIA;
+    background: black;
+    background-image: url("https://m.popkey.co/99d94a/YRRoZ.gif");
+    background-repeat: repeat-y;
+    background-position: left top;
+    background-size: 230px;
+    background-repeat: repeat;
 }
