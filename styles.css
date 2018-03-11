@@ -6,12 +6,11 @@ body {
 }
 body {
     text-align: center;
-    font-family: "impact";
-    color: FUCHSIA;
+    font-family: "Helvetica";
+    color: White;
     background: black;
-    background-image: url("https://m.popkey.co/99d94a/YRRoZ.gif");
+    background: #009933;
     background-repeat: repeat-y;
     background-position: left top;
     background-size: 230px;
-    background-repeat: repeat;
 }
